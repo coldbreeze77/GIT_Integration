@@ -22,7 +22,7 @@ git merge Feature1
 
 Publish to remore repo
 git remote add origin https://github.com/coldbreeze77/GIT_Integration.git
-git push -u origin main
+git push -f origin main
 
 
 Remove orignal repository
