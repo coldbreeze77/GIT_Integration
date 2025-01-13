@@ -9,4 +9,25 @@ This is sample read-only file. Using this for GitHub demo.
 7. git rm file2.txt  => remove file from git
 
 Create a branch:
+1. git checkout -b "Feature1"  
+2. git add "file3.txt"
+3. git commit -m "file 3 added to the feature 1 branch"
 
+Swith to the main branch
+1. git checkout main
+
+Merge new branch to main
+git merge Feature1
+
+
+Publish to remore repo
+git remote add origin https://github.com/coldbreeze77/GIT_Integration.git
+git push -u origin main
+
+
+Remove orignal repository
+git remote -v
+git remote remove origin
+
+
+If you want to integrate the remote changes, use 'git pull' before pushing again
